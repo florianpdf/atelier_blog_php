@@ -9,7 +9,7 @@
 		<div class="row">
 			<!-- Action: fichier vers lequel les infos saisi par l'utilisateur vont être envoyé -->
 			<!-- Méthod: comment vont elle être envoyé -->
-			<form class="col s12" action="add_article_action.php" method="POST">
+			<form class="col s12" action="index.php?section=add" method="POST">
 				<div class="row">
 					<div class="input-field">
 						<label for="nom">Nom</label>
