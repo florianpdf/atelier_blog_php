@@ -31,8 +31,8 @@
 
 					<!-- On boucle sur le resultat de la Requete
 					fetch permet de lire ligne par ligne le resultat de la Requete
-					Tour après tour (grâce à la boucle), chaque ligne du resultat de la requete et stoqué dans un tableau $donnee ce que nous permet de les afficher via le php -->
-					http://php.net/manual/fr/pdostatement.fetch.php
+					Tour après tour (grâce à la boucle), chaque ligne du resultat de la requete et stoqué dans un tableau $donnee ce que nous permet de les afficher via le php
+					http://php.net/manual/fr/pdostatement.fetch.php  -->
 					<?php while ($donnee = $result->fetch()) { ?>
 					<tr>
 						<td><?php echo $donnee['id']; ?></td>
